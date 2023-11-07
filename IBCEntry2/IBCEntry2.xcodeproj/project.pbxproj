@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F11D74BA28639954007D8552 /* IBCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F11D74B928639954007D8552 /* IBCUser.m */; };
+		F11D74BD28639D91007D8552 /* IBCState.m in Sources */ = {isa = PBXBuildFile; fileRef = F11D74BC28639D91007D8552 /* IBCState.m */; };
+		F11D74C128643DA7007D8552 /* IBCSignInController.m in Sources */ = {isa = PBXBuildFile; fileRef = F11D74C028643DA7007D8552 /* IBCSignInController.m */; };
+		F11D74C5286447AD007D8552 /* IBCSignUpController.m in Sources */ = {isa = PBXBuildFile; fileRef = F11D74C4286447AD007D8552 /* IBCSignUpController.m */; };
+		F12E6E4F28B794CB00065AFA /* IBCState.m in Sources */ = {isa = PBXBuildFile; fileRef = F11D74BC28639D91007D8552 /* IBCState.m */; };
+		F12E6E5028B794CB00065AFA /* IBCSignInController.m in Sources */ = {isa = PBXBuildFile; fileRef = F11D74C028643DA7007D8552 /* IBCSignInController.m */; };
+		F12E6E5128B794CB00065AFA /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16417AF285780FC00E7AA8D /* SettingsController.m */; };
+		F12E6E5228B794CB00065AFA /* WelcomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E9F3928463CEC00C02EF2 /* WelcomeController.m */; };
+		F12E6E5328B794CB00065AFA /* TimerTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F155EA69286E35A000DF7652 /* TimerTaskManager.m */; };
+		F12E6E5428B794CB00065AFA /* IBCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F11D74B928639954007D8552 /* IBCUser.m */; };
+		F12E6E5528B794CB00065AFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E9F3328463CEC00C02EF2 /* AppDelegate.m */; };
+		F12E6E5628B794CB00065AFA /* TTBlueToothServices.m in Sources */ = {isa = PBXBuildFile; fileRef = F155EA562867088A00DF7652 /* TTBlueToothServices.m */; };
+		F12E6E5728B794CB00065AFA /* IBCCipher.m in Sources */ = {isa = PBXBuildFile; fileRef = F155EA572867088A00DF7652 /* IBCCipher.m */; };
+		F12E6E5828B794CB00065AFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E9F4428463CED00C02EF2 /* main.m */; };
+		F12E6E5928B794CB00065AFA /* IBCSignUpController.m in Sources */ = {isa = PBXBuildFile; fileRef = F11D74C4286447AD007D8552 /* IBCSignUpController.m */; };
+		F12E6E5A28B794CB00065AFA /* IBCSpecifics.m in Sources */ = {isa = PBXBuildFile; fileRef = F155EA5D28687F7300DF7652 /* IBCSpecifics.m */; };
+		F12E6E5D28B794CB00065AFA /* Images in Resources */ = {isa = PBXBuildFile; fileRef = F14E9F4E2846466800C02EF2 /* Images */; };
+		F12E6E5E28B794CB00065AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14E9F4028463CED00C02EF2 /* LaunchScreen.storyboard */; };
+		F12E6E5F28B794CB00065AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14E9F3E28463CED00C02EF2 /* Assets.xcassets */; };
+		F12E6E6028B794CB00065AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14E9F3B28463CEC00C02EF2 /* Main.storyboard */; };
+		F12E6E6828B7A61A00065AFA /* CHTLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12E6E6628B7A61A00065AFA /* CHTLaunchScreen.storyboard */; };
+		F14E9F3428463CEC00C02EF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E9F3328463CEC00C02EF2 /* AppDelegate.m */; };
+		F14E9F3A28463CEC00C02EF2 /* WelcomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E9F3928463CEC00C02EF2 /* WelcomeController.m */; };
+		F14E9F3D28463CEC00C02EF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14E9F3B28463CEC00C02EF2 /* Main.storyboard */; };
+		F14E9F3F28463CED00C02EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14E9F3E28463CED00C02EF2 /* Assets.xcassets */; };
+		F14E9F4228463CED00C02EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14E9F4028463CED00C02EF2 /* LaunchScreen.storyboard */; };
+		F14E9F4528463CED00C02EF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E9F4428463CED00C02EF2 /* main.m */; };
+		F14E9F4F2846466800C02EF2 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = F14E9F4E2846466800C02EF2 /* Images */; };
+		F155EA5A2867088B00DF7652 /* TTBlueToothServices.m in Sources */ = {isa = PBXBuildFile; fileRef = F155EA562867088A00DF7652 /* TTBlueToothServices.m */; };
+		F155EA5B2867088B00DF7652 /* IBCCipher.m in Sources */ = {isa = PBXBuildFile; fileRef = F155EA572867088A00DF7652 /* IBCCipher.m */; };
+		F155EA5E28687F7300DF7652 /* IBCSpecifics.m in Sources */ = {isa = PBXBuildFile; fileRef = F155EA5D28687F7300DF7652 /* IBCSpecifics.m */; };
+		F155EA6A286E35A000DF7652 /* TimerTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F155EA69286E35A000DF7652 /* TimerTaskManager.m */; };
+		F16417B0285780FC00E7AA8D /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16417AF285780FC00E7AA8D /* SettingsController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F11D74B828639954007D8552 /* IBCUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBCUser.h; sourceTree = "<group>"; };
+		F11D74B928639954007D8552 /* IBCUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBCUser.m; sourceTree = "<group>"; };
+		F11D74BB28639D91007D8552 /* IBCState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBCState.h; sourceTree = "<group>"; };
+		F11D74BC28639D91007D8552 /* IBCState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBCState.m; sourceTree = "<group>"; };
+		F11D74BF28643DA7007D8552 /* IBCSignInController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBCSignInController.h; sourceTree = "<group>"; };
+		F11D74C028643DA7007D8552 /* IBCSignInController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBCSignInController.m; sourceTree = "<group>"; };
+		F11D74C3286447AD007D8552 /* IBCSignUpController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBCSignUpController.h; sourceTree = "<group>"; };
+		F11D74C4286447AD007D8552 /* IBCSignUpController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBCSignUpController.m; sourceTree = "<group>"; };
+		F12E6E6428B794CB00065AFA /* CHTEntry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHTEntry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12E6E6528B794CB00065AFA /* IBCEntry2 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "IBCEntry2 copy-Info.plist"; path = "/Users/nickp/Cocoa Projects/IBC/IBCEntry2/IBCEntry2 copy-Info.plist"; sourceTree = "<absolute>"; };
+		F12E6E6728B7A61A00065AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CHTLaunchScreen.storyboard; sourceTree = "<group>"; };
+		F14E9F2F28463CEC00C02EF2 /* IBCEntry2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBCEntry2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14E9F3228463CEC00C02EF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F14E9F3328463CEC00C02EF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F14E9F3828463CEC00C02EF2 /* WelcomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeController.h; sourceTree = "<group>"; };
+		F14E9F3928463CEC00C02EF2 /* WelcomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeController.m; sourceTree = "<group>"; };
+		F14E9F3C28463CEC00C02EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F14E9F3E28463CED00C02EF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F14E9F4128463CED00C02EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F14E9F4328463CED00C02EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14E9F4428463CED00C02EF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F14E9F4E2846466800C02EF2 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		F155EA562867088A00DF7652 /* TTBlueToothServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBlueToothServices.m; sourceTree = "<group>"; };
+		F155EA572867088A00DF7652 /* IBCCipher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBCCipher.m; sourceTree = "<group>"; };
+		F155EA582867088A00DF7652 /* TTBlueToothServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBlueToothServices.h; sourceTree = "<group>"; };
+		F155EA592867088A00DF7652 /* IBCCipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBCCipher.h; sourceTree = "<group>"; };
+		F155EA5C28687F7300DF7652 /* IBCSpecifics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBCSpecifics.h; sourceTree = "<group>"; };
+		F155EA5D28687F7300DF7652 /* IBCSpecifics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBCSpecifics.m; sourceTree = "<group>"; };
+		F155EA68286E35A000DF7652 /* TimerTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimerTaskManager.h; path = util/TimerTaskManager.h; sourceTree = "<group>"; };
+		F155EA69286E35A000DF7652 /* TimerTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimerTaskManager.m; path = util/TimerTaskManager.m; sourceTree = "<group>"; };
+		F16417AE285780FC00E7AA8D /* SettingsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
+		F16417AF285780FC00E7AA8D /* SettingsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F12E6E5B28B794CB00065AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14E9F2C28463CEC00C02EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F11D74B728639893007D8552 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F11D74B828639954007D8552 /* IBCUser.h */,
+				F11D74B928639954007D8552 /* IBCUser.m */,
+				F11D74BB28639D91007D8552 /* IBCState.h */,
+				F11D74BC28639D91007D8552 /* IBCState.m */,
+				F155EA5C28687F7300DF7652 /* IBCSpecifics.h */,
+				F155EA5D28687F7300DF7652 /* IBCSpecifics.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F11D74BE28643D02007D8552 /* User Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F11D74BF28643DA7007D8552 /* IBCSignInController.h */,
+				F11D74C028643DA7007D8552 /* IBCSignInController.m */,
+				F11D74C3286447AD007D8552 /* IBCSignUpController.h */,
+				F11D74C4286447AD007D8552 /* IBCSignUpController.m */,
+			);
+			path = "User Screens";
+			sourceTree = "<group>";
+		};
+		F11D74C228644749007D8552 /* Main Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F14E9F3828463CEC00C02EF2 /* WelcomeController.h */,
+				F14E9F3928463CEC00C02EF2 /* WelcomeController.m */,
+				F16417AE285780FC00E7AA8D /* SettingsController.h */,
+				F16417AF285780FC00E7AA8D /* SettingsController.m */,
+			);
+			name = "Main Screens";
+			sourceTree = "<group>";
+		};
+		F14E9F2628463CEC00C02EF2 = {
+			isa = PBXGroup;
+			children = (
+				F14E9F3128463CEC00C02EF2 /* IBCEntry2 */,
+				F14E9F3028463CEC00C02EF2 /* Products */,
+				F12E6E6528B794CB00065AFA /* IBCEntry2 copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		F14E9F3028463CEC00C02EF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F14E9F2F28463CEC00C02EF2 /* IBCEntry2.app */,
+				F12E6E6428B794CB00065AFA /* CHTEntry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F14E9F3128463CEC00C02EF2 /* IBCEntry2 */ = {
+			isa = PBXGroup;
+			children = (
+				F14E9F4E2846466800C02EF2 /* Images */,
+				F14E9F3228463CEC00C02EF2 /* AppDelegate.h */,
+				F14E9F3328463CEC00C02EF2 /* AppDelegate.m */,
+				F14E9F3B28463CEC00C02EF2 /* Main.storyboard */,
+				F14E9F3E28463CED00C02EF2 /* Assets.xcassets */,
+				F14E9F4028463CED00C02EF2 /* LaunchScreen.storyboard */,
+				F12E6E6628B7A61A00065AFA /* CHTLaunchScreen.storyboard */,
+				F14E9F4328463CED00C02EF2 /* Info.plist */,
+				F14E9F4428463CED00C02EF2 /* main.m */,
+				F11D74C228644749007D8552 /* Main Screens */,
+				F11D74BE28643D02007D8552 /* User Screens */,
+				F155EA552867088A00DF7652 /* BLE */,
+				F155EA67286E357A00DF7652 /* util */,
+				F11D74B728639893007D8552 /* Model */,
+			);
+			path = IBCEntry2;
+			sourceTree = "<group>";
+		};
+		F155EA552867088A00DF7652 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				F155EA582867088A00DF7652 /* TTBlueToothServices.h */,
+				F155EA562867088A00DF7652 /* TTBlueToothServices.m */,
+				F155EA592867088A00DF7652 /* IBCCipher.h */,
+				F155EA572867088A00DF7652 /* IBCCipher.m */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		F155EA67286E357A00DF7652 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				F155EA68286E35A000DF7652 /* TimerTaskManager.h */,
+				F155EA69286E35A000DF7652 /* TimerTaskManager.m */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F12E6E4D28B794CB00065AFA /* CHTEntry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12E6E6128B794CB00065AFA /* Build configuration list for PBXNativeTarget "CHTEntry" */;
+			buildPhases = (
+				F12E6E4E28B794CB00065AFA /* Sources */,
+				F12E6E5B28B794CB00065AFA /* Frameworks */,
+				F12E6E5C28B794CB00065AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHTEntry;
+			productName = IBCEntry2;
+			productReference = F12E6E6428B794CB00065AFA /* CHTEntry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F14E9F2E28463CEC00C02EF2 /* IBCEntry2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14E9F4828463CED00C02EF2 /* Build configuration list for PBXNativeTarget "IBCEntry2" */;
+			buildPhases = (
+				F14E9F2B28463CEC00C02EF2 /* Sources */,
+				F14E9F2C28463CEC00C02EF2 /* Frameworks */,
+				F14E9F2D28463CEC00C02EF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBCEntry2;
+			productName = IBCEntry2;
+			productReference = F14E9F2F28463CEC00C02EF2 /* IBCEntry2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F14E9F2728463CEC00C02EF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F14E9F2E28463CEC00C02EF2 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F14E9F2A28463CEC00C02EF2 /* Build configuration list for PBXProject "IBCEntry2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F14E9F2628463CEC00C02EF2;
+			productRefGroup = F14E9F3028463CEC00C02EF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F14E9F2E28463CEC00C02EF2 /* IBCEntry2 */,
+				F12E6E4D28B794CB00065AFA /* CHTEntry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F12E6E5C28B794CB00065AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12E6E5D28B794CB00065AFA /* Images in Resources */,
+				F12E6E6828B7A61A00065AFA /* CHTLaunchScreen.storyboard in Resources */,
+				F12E6E5E28B794CB00065AFA /* LaunchScreen.storyboard in Resources */,
+				F12E6E5F28B794CB00065AFA /* Assets.xcassets in Resources */,
+				F12E6E6028B794CB00065AFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14E9F2D28463CEC00C02EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14E9F4F2846466800C02EF2 /* Images in Resources */,
+				F14E9F4228463CED00C02EF2 /* LaunchScreen.storyboard in Resources */,
+				F14E9F3F28463CED00C02EF2 /* Assets.xcassets in Resources */,
+				F14E9F3D28463CEC00C02EF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F12E6E4E28B794CB00065AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12E6E4F28B794CB00065AFA /* IBCState.m in Sources */,
+				F12E6E5028B794CB00065AFA /* IBCSignInController.m in Sources */,
+				F12E6E5128B794CB00065AFA /* SettingsController.m in Sources */,
+				F12E6E5228B794CB00065AFA /* WelcomeController.m in Sources */,
+				F12E6E5328B794CB00065AFA /* TimerTaskManager.m in Sources */,
+				F12E6E5428B794CB00065AFA /* IBCUser.m in Sources */,
+				F12E6E5528B794CB00065AFA /* AppDelegate.m in Sources */,
+				F12E6E5628B794CB00065AFA /* TTBlueToothServices.m in Sources */,
+				F12E6E5728B794CB00065AFA /* IBCCipher.m in Sources */,
+				F12E6E5828B794CB00065AFA /* main.m in Sources */,
+				F12E6E5928B794CB00065AFA /* IBCSignUpController.m in Sources */,
+				F12E6E5A28B794CB00065AFA /* IBCSpecifics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14E9F2B28463CEC00C02EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11D74BD28639D91007D8552 /* IBCState.m in Sources */,
+				F11D74C128643DA7007D8552 /* IBCSignInController.m in Sources */,
+				F16417B0285780FC00E7AA8D /* SettingsController.m in Sources */,
+				F14E9F3A28463CEC00C02EF2 /* WelcomeController.m in Sources */,
+				F155EA6A286E35A000DF7652 /* TimerTaskManager.m in Sources */,
+				F11D74BA28639954007D8552 /* IBCUser.m in Sources */,
+				F14E9F3428463CEC00C02EF2 /* AppDelegate.m in Sources */,
+				F155EA5A2867088B00DF7652 /* TTBlueToothServices.m in Sources */,
+				F155EA5B2867088B00DF7652 /* IBCCipher.m in Sources */,
+				F14E9F4528463CED00C02EF2 /* main.m in Sources */,
+				F11D74C5286447AD007D8552 /* IBCSignUpController.m in Sources */,
+				F155EA5E28687F7300DF7652 /* IBCSpecifics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F12E6E6628B7A61A00065AFA /* CHTLaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12E6E6728B7A61A00065AFA /* Base */,
+			);
+			name = CHTLaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F14E9F3B28463CEC00C02EF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F14E9F3C28463CEC00C02EF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F14E9F4028463CED00C02EF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F14E9F4128463CED00C02EF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F12E6E6228B794CB00065AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = CHTAppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = SGXDFV9VY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IBCEntry2 copy-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "CHTEntry needs permission to communicate with the IBC Entry device.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "IBCEntry2 needs permission to communicate with the IBC Entry device.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = CHTLaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npassociatesllc.CHTEntry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F12E6E6328B794CB00065AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = CHTAppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = SGXDFV9VY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IBCEntry2 copy-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "CHTEntry needs permission to communicate with the IBC Entry device.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "IBCEntry2 needs permission to communicate with the IBC Entry device.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = CHTLaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npassociatesllc.CHTEntry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F14E9F4628463CED00C02EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F14E9F4728463CED00C02EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F14E9F4928463CED00C02EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = 47MXBF3K8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IBCEntry2/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "IBCEntry2 needs permission to communicate with the IBC Entry device.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "IBCEntry2 needs permission to communicate with the IBC Entry device.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npassociatesllc.IBCEntry2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F14E9F4A28463CED00C02EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = SGXDFV9VY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IBCEntry2/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "IBCEntry2 needs permission to communicate with the IBC Entry device.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "IBCEntry2 needs permission to communicate with the IBC Entry device.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npassociatesllc.IBCEntry2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F12E6E6128B794CB00065AFA /* Build configuration list for PBXNativeTarget "CHTEntry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12E6E6228B794CB00065AFA /* Debug */,
+				F12E6E6328B794CB00065AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14E9F2A28463CEC00C02EF2 /* Build configuration list for PBXProject "IBCEntry2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14E9F4628463CED00C02EF2 /* Debug */,
+				F14E9F4728463CED00C02EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14E9F4828463CED00C02EF2 /* Build configuration list for PBXNativeTarget "IBCEntry2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14E9F4928463CED00C02EF2 /* Debug */,
+				F14E9F4A28463CED00C02EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F14E9F2728463CEC00C02EF2 /* Project object */;
+}
